@@ -1,4 +1,5 @@
 [core]
     remote = localremote
+    analytics = false
 ['remote "localremote"']
     url = ../../local_remote
