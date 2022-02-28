@@ -16,14 +16,14 @@ def compute_metrics_on_test_set():
     _, test = train_test_split(data, test_size=0.20, random_state=42)
 
     # Load model, encoder and label binarizer
-    with open("../model/model.pkl", "rb") as f:
-        model = pickle.load(f)
+    with open("../model/model.pkl", "rb") as file:
+        model = pickle.load(file)
 
-    with open("../model/encoder.pkl", "rb") as f:
-        encoder = pickle.load(f)
+    with open("../model/encoder.pkl", "rb") as file:
+        encoder = pickle.load(file)
 
-    with open("../model/label_binarizer.pkl", "rb") as f:
-        lb = pickle.load(f)
+    with open("../model/label_binarizer.pkl", "rb") as file:
+        lb = pickle.load(file)
 
     # Categorical features
     cat_features = [
