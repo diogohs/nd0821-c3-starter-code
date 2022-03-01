@@ -30,8 +30,8 @@ Precision, recall and F-beta metrics were chosen to evaluate the model's perform
 
 ## Ethical Considerations
 
-No considerations.
+This dataset was taken from the UCI repository and is already anonymized. Although, inherent bias should be carefully analyzed.
 
 ## Caveats and Recommendations
 
-The dataset was donated to the UCI repository in 1996.
+The dataset was extracted from the 1994 Census database.
